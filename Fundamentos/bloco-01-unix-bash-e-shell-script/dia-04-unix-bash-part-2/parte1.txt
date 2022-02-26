@@ -1,0 +1,11 @@
+1.cd unix_tests
+2.Internet\nUnix\nBash" > skills2.txt
+3.Javascript\nShell Script\nC\nCSS\nJava" >> skills2.txt
+4.cat skills2.txt | wc -l5
+5.cat skills2.txt | sort | head -3 > top_skills.txt
+6.cat >> phrases2.txt
+7.grep -c br phrases2.txt
+8.grep -vc br phrases2.txt
+9.Portugal\nItalia" >> phrases2.txt
+10.cat phrases2.txt countries.txt > bunch_of_things.txt
+11.sort -o bunch_of_things.txt bunch_of_things.txt
