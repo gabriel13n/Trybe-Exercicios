@@ -1,0 +1,31 @@
+h1 {
+    font-family: sans-serif;
+}
+
+p {
+    font-weight: 600;
+    font-size: 3em;
+}
+
+body {
+    font-size: 16px;
+    font-style: italic;
+    line-height: 30px ;
+    text-align: center;
+    text-decoration: underline ;
+}
+
+#yellow {
+    background-color: yellow;
+}
+
+#red {
+    background-color: red;
+}
+
+#brown {
+    background-color: brown;
+}
+
+/* Exercícios
+Coloque todo o CSS criado até agora nos exercícios anteriores em  um arquivo externo /*
