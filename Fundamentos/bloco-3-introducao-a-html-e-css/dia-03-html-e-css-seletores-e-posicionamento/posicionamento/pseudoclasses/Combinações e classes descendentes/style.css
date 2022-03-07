@@ -43,7 +43,11 @@ ul:nth-of-type(2) li:nth-of-type(2):hover {
 
 ul:nth-of-type(2) li:nth-of-type(3):hover {
     font-weight: bold;
+<<<<<<< HEAD
     color: orange
+=======
+    color: black;
+>>>>>>> b495dfc2751995763c402f0a400641e91bb16287
 }
 
 ul:nth-of-type(2) li:nth-of-type(4):hover {
