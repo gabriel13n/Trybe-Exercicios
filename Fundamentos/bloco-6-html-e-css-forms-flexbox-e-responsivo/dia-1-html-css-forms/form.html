@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TrybeTrip</title>
+  </head>
+  <body>
+
+    <header>
+      <p>TrybeTrip</p>
+    </header>
+
+		<main>
+			<form action="" method="get">
+				<label for="input-name">Digite seu nome
+					<input type="text" name="name" id="input-name">
+				</label>
+				<br>
+				<label for="input-email">Digite seu email 
+					<input type="text" name="email" id="input-email">
+				</label>
+				<br>
+
+				<input type="radio" class="radios-options" name="opcoes">Brasília
+				<input type="radio" class="radios-options" name="opcoes">Belém 
+				<input type="radio" class="radios-options" name="opcoes">Porto-Alegre
+				<input type="radio" class="radios-options" name="opcoes">Manaus
+
+				<p>Porque você deveria ser a pessoa desenvolverdora a ganhar o curso TrybeTrip?</p>
+				<textarea name="resposta" id="text-area" cols="30" rows="10"></textarea>
+				<br>
+
+				<label for="">Qual a melhor data para a sua viagem?
+					<input type="date" name="data">
+				</label>
+				<br>
+
+				<label for="">Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?
+					<input type="checkbox" name="concordo" class="checkbox">
+				</label>
+				<br>
+
+				<label for="">Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.
+					<input type="checkbox" name="concordo" class="checkbox">
+				</label>
+				<br>
+				<button id="btn" type="submit">Enviar</button>
+				
+
+				<script src="script.js"></script>
+			</form>
+		</main>
+  </body>
+</html>
