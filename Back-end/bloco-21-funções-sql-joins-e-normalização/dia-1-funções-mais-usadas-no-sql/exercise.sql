@@ -107,3 +107,5 @@ WHERE hire_date BETWEEN '1987-07-01' AND '1987-07-31';
 
 SELECT first_name, last_name, DATEDIFF(CURRENT_DATE() , hire_date) 'days_worked'
 FROM hr.employees;
+
+-- finalizado
